@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  background-color: #191717;
+  padding: 20px 17px;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar a{
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+}
+.navbar a.active{
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+}
+form{
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #61677A;
+  margin: 100px;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding: 35px;
+}
+.userform{
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #61677A;
+  margin: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 35px;
+}
+input{
+  width: 100%;
+  border-radius: 10px;
+}
+.radio{
+  width: 10px;
+  border-radius: 10px;
+}
+label{
+  color: white;
+  font-family: sans-serif;
+}
+form a{
+  text-decoration: none;
+}
+.flink{
+  color: white;
+}
+.flink:hover{
+  text-decoration: underline;
+}
+button{
+  border-radius: 10px;
+  background-color: #FFC6AC;
+  color: black;
+  height: 30px;
+  /* width: 70px; */
+}
+button:hover{
+  background-color: #1a75ff;
+  color: white;
+
+}
+h2{
+  color: white;
+}
+.login-p{
+  text-align: center;
+  text-decoration: midnightblue underline dotted;
+}
+.pro-p{
+  text-align: center;
+}
+.radio{
+  color: white;
+}
